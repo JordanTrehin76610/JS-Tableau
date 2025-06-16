@@ -13,9 +13,12 @@ console.log(princesse)
 princesse.splice(2, 1) //Pop pour supprimer le dernier élément 
 princesse.splice(5, 1)
 
+// princesse.splice(princesse.indexOf("Raiponce"),1)   POSSIBLE AUSSI POUR SUPPR
+// princesse.splice(princesse.indexOf("Daisy"),1)
+
 console.log(princesse)
 
-princesse.sort() //Trie dans le croissant ou alphabétique
+princesse.sort() //Trie dans l'ordre croissant ou alphabétique
 
 console.log(princesse)
 
